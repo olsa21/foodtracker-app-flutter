@@ -177,7 +177,9 @@ class _FoodDetailPageState extends State<FoodDetailPage> {
 
                       AutoRouter.of(context).popUntilRoot();
                     },
-                    style: ElevatedButton.styleFrom(primary: Colors.deepPurple),
+                    //style: ElevatedButton.styleFrom(primary: Colors.deepPurple),
+                    style: ElevatedButton.styleFrom(backgroundColor: Colors.deepPurple),
+
                     child:
                         (widget.log == null)
                             ? Text(intl.add, style: TextStyle(color: Colors.white),)

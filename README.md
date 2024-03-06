@@ -1,16 +1,35 @@
-# foodtracker
+# Foodtracker
 
-A new Flutter project.
+A simple foodtracker for Android created with Flutter.\
+The project structure is based on [resocoder.com](https://resocoder.com/2020/03/09/flutter-firebase-ddd-course-1-domain-driven-design-principles/).\
+The data comes from the API of [Open Food Facts](https://world.openfoodfacts.org/).
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- Create a diary and count calories and nutrients
+- Search products by name or EAN barcode
+- Add entry with weight or number of servings, if available
+- Edit or delete entries
 
-A few resources to get you started if this is your first Flutter project:
+## Required Permission
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+- Camera
+- Internet
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Requirements
+
+The project requires at least Android 6 API Version 23.
+
+## Screenshots
+
+<div>
+<img src="screenshots/home.png" width="25%" title="Home">
+<img src="screenshots/add_edit_details.png" width="25%" title="Add or Edit page">
+<img src="screenshots/add_product.png" width="25%"  title="Add product page">
+<img src="screenshots/search_by_text.png" width="25%"  title="Search product by name">
+</div>
+
+## Usage
+- clone this repository
+- run `flutter pub get`
+- run `flutter run`

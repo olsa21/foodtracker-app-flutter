@@ -29,6 +29,7 @@ class MyApp extends StatelessWidget {
     return BlocProvider(
       create: (context) => di.serviceLocator<FoodBloc>(),
       child: MaterialApp.router(
+        debugShowCheckedModeBanner: false,
         routeInformationParser: _appRouter.defaultRouteParser(),
         routerDelegate: _appRouter.delegate(),
         title: "Food-Tracker",

@@ -175,7 +175,9 @@ class _HomePageState extends State<HomePage> {
               onPressed: () {
                 AutoRouter.of(context).push(AddFoodPageRoute(date: DateFormat('yyyy-MM-dd').format(selectedDate)));
               },
-              child: const Icon(Icons.add_circle_outline)),
+              backgroundColor: Colors.deepPurpleAccent,
+              child: const Icon(Icons.add_circle_outline),
+          ),
         );
       },
     );
