@@ -1,0 +1,34 @@
+{
+    "sync": "Produktdatenbank synchronisieren",
+    "overview": "Übersicht",
+    "log": "Protokoll",
+
+    "homepage": "Homepage",
+    "addProduct": "Produkt hinzufügen",
+    "successfullyAdded": "Erfolgreich hinzugefügt",
+
+    "breakfast": "Frühstück",
+    "lunch": "Mittagessen",
+    "dinner": "Abendessen",
+    "snack": "Snack",
+
+    "add": "hinzufügen",
+    "edit": "bearbeiten",
+
+    "nutriments": "Nährwerte",
+    "calories": "Kalorien",
+    "fat": "Fett",
+    "satFat": "gesättigte Fette",
+    "carbs": "Kohlenhydrate",
+    "sugar": "Zucker",
+    "protein": "Eiweiß",
+    "salt": "Salz",
+
+    "gram": "Gramm",
+    "portion": "Portion",
+
+    "consumed": "konsumiert",
+    "left": "übrig",
+    "tooMuch": "zu viel",
+    "burned": "verbrannt"
+}

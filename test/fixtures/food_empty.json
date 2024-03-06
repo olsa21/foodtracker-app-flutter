@@ -1,0 +1,12 @@
+{
+  "link": "https://de.openfoodfacts.org/api/v0/product/5053990138722?fields=brands,product_name_de,nutriments,image_front_url",
+  "product": {
+    "abc" : "",
+    "nutriments": {
+      "sugars_unit": "g"
+    },
+    "abc" : ""
+  },
+  "status": 1,
+  "status_verbose": "product found"
+}
